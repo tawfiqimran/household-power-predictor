@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+
+# Local source archives are too large for a normal GitHub repository.
+household_power_consumption.txt
+household_power_consumption.zip
+files.zip
+
+# Exploratory notebooks and duplicate dataset folders are not required by the deployed app.
+*.ipynb
+household_power_consumption/
+ml project.ipynb/
