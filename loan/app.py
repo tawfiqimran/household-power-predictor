@@ -61,7 +61,7 @@ with tab_predict:
             age = st.slider("Age", 18, 70, 35)
             months_employed = st.slider("Months Employed", 0, 120, 24)
             num_credit_lines = st.slider("Number of Credit Lines", 0, 10, 2)
-            education = st.selectbox("Education", ["Bachelor's", "High School", "Master's", "PhD"])
+            education = st.selectbox("Education", ["Bachelor's", "High School", "PhD"])
             employment_type = st.selectbox("Employment Type", ["Full-time", "Part-time", "Self-employed", "Unemployed"])
             marital_status = st.selectbox("Marital Status", ["Single", "Married", "Divorced"])
             loan_purpose = st.selectbox("Loan Purpose", ["Auto", "Business", "Education", "Home", "Other"])
